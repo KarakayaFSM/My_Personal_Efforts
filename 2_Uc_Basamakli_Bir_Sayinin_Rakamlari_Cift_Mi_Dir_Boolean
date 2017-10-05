@@ -1,0 +1,24 @@
+package javaapplication14;
+
+public class JavaApplication14 {
+
+    public static void main(String[] args) {
+        int sayi = 256;
+        int birler;
+        int onlar;
+        int yuzler;
+        birler = sayi % 10;
+        onlar =(sayi/10)/5;       
+        yuzler=256/100;
+        boolean ciftmi=(birler%2==0);
+        System.out.println("Birler Basamagi= ");
+        System.out.println(ciftmi ? "Çifttir":"Tektir");
+        boolean ciftmi2=onlar%2==0;
+        System.out.println("Onlar Basamagi= ");
+        System.out.println(ciftmi2 ? "Çifttir":"Tektir");
+        boolean ciftmi3=yuzler%2==0;
+        System.out.println("Yuzler Basamagi= ");
+        System.out.println(ciftmi3 ? "Çifttir":"Tektir");        
+    }
+
+}
