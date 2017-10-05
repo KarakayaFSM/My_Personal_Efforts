@@ -1,0 +1,19 @@
+package javaapplication4;
+
+public class JavaApplication4 {
+
+    
+    public static void main(String[] args) {
+    int a=7;
+    int b=8;
+    
+        System.out.println("Sayı= "+a);
+        System.out.println("Sayı= "+b);
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("Yeni Sayi= "+a);
+        System.out.println("Yeni Sayi="+b);
+    }
+    
+}
