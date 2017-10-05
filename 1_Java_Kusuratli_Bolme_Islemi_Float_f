@@ -1,0 +1,13 @@
+package javaapplication12;
+
+public class JavaApplication12 {
+
+    public static void main(String[] args) {
+       
+        float a=128/100f;//float(kayan virgüllü)sayılar sonuna f harfi alarak yazılırlar.
+        System.out.println(a);
+        
+        
+    }
+    
+}
