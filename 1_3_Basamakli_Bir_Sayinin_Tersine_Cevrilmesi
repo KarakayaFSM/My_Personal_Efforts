@@ -1,0 +1,18 @@
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+        int sayi = 571;
+        int yuz;
+        int on;
+        int bir;
+
+        yuz = sayi/100 ;
+        on = 7 ;
+        bir = sayi % 10 ;
+        System.out.println(bir*100+on*10+yuz) ;
+
+    }
+
+}
