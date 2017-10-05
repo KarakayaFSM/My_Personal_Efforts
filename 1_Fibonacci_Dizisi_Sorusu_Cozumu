@@ -1,0 +1,16 @@
+package ornek1;
+
+public class Ornek1 {
+
+    public static void main(String[] args) {
+       int f0;
+       int f1=1;
+       int f2=1;
+        f0=f2; //f0=f2 yazdığımızda f0 f2'nin 1 olan değerini aldı ve f2 boş kaldı.
+       f2=f0+f1; //f0 f2'nin eski değerini tuttuğu için 1'dir f1=1 olduğundan f2=2 olur.
+       f1=f2; // f2 2 değerini aldı ve f0 da f2'nin eski değerini tutuyor boşta sadece f1 var.
+       f2=f0+f1; // f1=f2 dediğimizde f2'nin 2 olan değerini f1 alır ve f2'nin hafızası yeni değeri almak üzere boşaltılmış olur.
+       //f0=1 idi ve f2'nin 2 değerini f1 e aktardık böylece f0+f1=1+2=3 oldu.
+       f0=f2;//aynı şekilde f1 f2'nin eski değerini tutuyor ve f2 ise 3 oldu boşta f0 var.
+       f2=f0+f1;//f2'yi f0'a atadığımızda f0=3 ve f1'de 2 idi toplamları 5 eder.
+       System.out.println(f2);
