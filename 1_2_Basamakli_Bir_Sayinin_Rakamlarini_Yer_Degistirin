@@ -1,0 +1,14 @@
+package javaapplication2;
+public class JavaApplication2 {
+
+    public static void main(String[] args) {
+  int Sayi=36,hedefSayi;
+       int onlarBasamagi;
+       int birlerBasamagi;
+        birlerBasamagi=Sayi%10;
+        onlarBasamagi=(Sayi-birlerBasamagi)/10;
+        hedefSayi=birlerBasamagi*10+onlarBasamagi;
+        System.out.println("Hedef Sayi = " + hedefSayi);
+    }
+    
+}
