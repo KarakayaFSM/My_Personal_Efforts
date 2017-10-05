@@ -1,0 +1,21 @@
+package javaapplication13;
+
+public class JavaApplication13 {
+
+    public static void main(String[] args) {
+        
+         char ch1, ch2;
+
+    ch1 =(int)88; // ASCII code for X
+    System.out.println(ch1);
+    ++ch1;
+        System.out.println(ch1);
+    ++ch1;
+        System.out.println(ch1);
+    ++ch1;
+        System.out.println(ch1);
+    ++ch1;
+        System.out.println(ch1);    
+    }
+    
+}
