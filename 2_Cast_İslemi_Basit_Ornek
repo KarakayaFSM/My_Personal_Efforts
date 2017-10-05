@@ -1,0 +1,13 @@
+package javaapplication7;
+
+public class JavaApplication7 {
+
+    public static void main(String[] args) {
+    double a;
+     a =((double)1/2*10);//Eğer içerideki double'a cast işlemi yapılmasaydı sonuç 0 çıkardı.
+        System.out.println(a);
+       
+
+    }
+
+}
