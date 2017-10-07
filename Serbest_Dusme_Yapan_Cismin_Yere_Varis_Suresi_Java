@@ -1,0 +1,18 @@
+package javaapplication17;
+import java.util.Scanner;
+public class JavaApplication17 {
+public static void main(String[] args) {
+Scanner alinan = new Scanner(System.in);    
+double h;
+double g=10;
+double t;
+System.out.println("Yüksekliği giriniz (Metre Olarak):");
+h= alinan.nextInt();
+t=Math.sqrt((double)h*2/g);
+    System.out.println("Yere Çarpma Süresi :"+t+" Saniye'dir.");
+
+
+
+    }
+    
+}
