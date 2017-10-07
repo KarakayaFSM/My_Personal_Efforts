@@ -1,0 +1,13 @@
+package javaapplication11;
+
+public class JavaApplication11 {
+
+    public static void main(String[] args) {
+
+        boolean a = (17 % 2 == 0);
+
+           System.out.println(a ? "Çift" : "Tek");
+
+    }
+
+}
