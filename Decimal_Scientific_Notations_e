@@ -1,0 +1,14 @@
+package javaapplication18;
+
+
+public class JavaApplication18 {
+    public static void main(String[] args) { 
+      double b = 1.8e6;//1.8e6 demek 1.8*10 üzeri 6 demektir(1.8*10^6)ve e'nin sağındaki sayı 10'un üssünü gösterir.
+      double c =5.0e4;//Aynı şekilde 5.0e4 te 5*10 üzeri 4 demektir(5*10^4)ve e'nin sağındaki "4" 10'un üssüdğr. 
+        System.out.println(b*c);
+        
+        
+        
+    }
+    
+}
