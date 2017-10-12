@@ -1,0 +1,27 @@
+package javaapplication23;
+
+import java.util.Scanner;
+
+public class JavaApplication23 {
+
+    public static void main(String[] args) {
+     Scanner input = new Scanner(System.in);
+        int sayi;
+        System.out.println("Bir Sayi Giriniz");
+        sayi=input.nextInt();
+        String bolunurmu;
+        bolunurmu=(sayi%2==0&&sayi%5!=0) ? "Sadece Ikiye Bolunur":
+                  (sayi%5==0&&sayi%2!=0) ? "Sadece Bese Bolunur":
+                  (sayi%2==0&&sayi%5==0) ? "Hem Ikiye Hem Bese Bolunur ":
+                  (sayi%2!=0&&sayi%5!=0) ? "Ne Ikiye Ne de Bese Bolunur":"";
+                 System.out.println(bolunurmu);
+              
+        
+        
+        
+        
+        
+        
+    }
+    
+}
