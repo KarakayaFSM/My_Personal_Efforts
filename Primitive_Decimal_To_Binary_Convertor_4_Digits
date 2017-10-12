@@ -1,0 +1,72 @@
+package javaapplication22;
+
+import java.util.Scanner;
+
+public class JavaApplication22 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("En Fazla 4 Basamakli Bir Sayi Giriniz");
+        int sayi;
+        sayi = input.nextInt();
+        int bir;
+        int iki;
+        int dort;
+        int sekiz;
+        int onalti;
+        int otuziki;
+        int atmisdort;
+        int yuzyirmi;
+        int ikiyuzelli;
+        int besyuz;
+        int bin;
+        int ikibin;
+        int dortbin;
+        int sekizbin;
+        sekizbin = (sayi - 8192 >= 0) ? 1 : 0;
+        sayi = (sekizbin == 1) ? sayi - 8192 : sayi;
+        dortbin = (sayi - 4096 >= 0) ? 1 : 0;
+        sayi = (dortbin == 1) ? sayi - 4096 : sayi;
+        ikibin = (sayi - 2048 >= 0) ? 1 : 0;
+        sayi = (ikibin == 1) ? sayi - 2048 : sayi;
+        bin = (sayi - 1024 >= 0) ? 1 : 0;
+        sayi = (bin == 1) ? sayi - 1024 : sayi;
+        besyuz = (sayi - 512 >= 0) ? 1 : 0;
+        sayi = (besyuz == 1) ? sayi - 512 : sayi;
+        ikiyuzelli = (sayi - 256 >= 0) ? 1 : 0;
+        sayi = (ikiyuzelli == 1) ? sayi - 256 : sayi;
+        yuzyirmi = (sayi - 128 >= 0) ? 1 : 0;
+        sayi = (yuzyirmi == 1) ? sayi - 128 : sayi;
+        atmisdort = (sayi - 64 >= 0) ? 1 : 0;
+        sayi = (atmisdort == 1) ? sayi - 64 : sayi;
+        otuziki = (sayi - 32 >= 0) ? 1 : 0;
+        sayi = (otuziki == 1) ? sayi - 32 : sayi;
+        onalti = (sayi - 16 >= 0) ? 1 : 0;
+        sayi = (onalti == 1) ? sayi - 16 : sayi;
+        sekiz = (sayi - 8 >= 0) ? 1 : 0;
+        sayi = (sekiz == 1) ? sayi - 8 : sayi;
+        dort = (sayi - 4 >= 0) ? 1 : 0;
+        sayi = (bin == 1) ? sayi - 4 : sayi;
+        iki = (sayi - 2 >= 0) ? 1 : 0;
+        sayi = (iki == 1) ? sayi - 2 : sayi;
+        bir = (sayi - 1 >= 0) ? 1 : 0;
+        sayi = (bir == 1) ? sayi - 1 : sayi;
+        System.out.println("Sayı ikilik sistemde: "
+                + sekizbin
+                + dortbin
+                + ikibin
+                + bin
+                + besyuz
+                + ikiyuzelli
+                + yuzyirmi
+                + atmisdort
+                + otuziki
+                + onalti
+                + sekiz
+                + dort
+                + iki
+                + bir);
+
+    }
+
+}
