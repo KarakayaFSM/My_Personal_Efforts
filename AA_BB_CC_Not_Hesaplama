@@ -1,0 +1,18 @@
+package javaapplication24;
+
+import java.util.Scanner;
+
+public class JavaApplication24 {
+    
+    public static void main(String[] args) {
+       Scanner input=new Scanner(System.in);
+        int not;
+        System.out.println("Bir Not Giriniz:");
+        not=input.nextInt();
+        String HarfNotu=(not<=100&&not>70) ? "AA":
+        (not>40&&not<=70) ? "BB":
+        (not<=40&&not>0) ? "CC":"DD";
+        System.out.println(HarfNotu);        
+    }
+    
+}
