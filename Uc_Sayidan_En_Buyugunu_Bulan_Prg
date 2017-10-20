@@ -1,0 +1,17 @@
+public class Uc_Sayidan_En_Buyugunu_Bulan_Prg {
+
+    public static void main(String[] args) {
+        int s1 = 1;
+        int s2 = 2;
+        int s3 = 3;
+
+        if (s1 > s2 && s1 > s3) {
+            System.out.println("En büyük Sayı: " + s1);
+        } else if (s2 > s3) {
+            System.out.println("En Büyük Sayı: " + s2);
+        } else if (s3 > s2) {
+            System.out.println("En büyük sayı: " + s3);
+        }
+        else{System.out.println("Sayılar Eşittir");}
+    }
+}
