@@ -1,0 +1,14 @@
+public class D_Sayinin_Tam_Bolenleri {
+
+    public static void main(String[] args) {
+        int sayi = 8;
+        int i = 1;
+        while (i <= sayi) {
+            if (sayi % i == 0) {
+                System.out.println(i+" Tam Bölendir.");
+            }
+            i++;
+        }
+        
+    }
+}
